@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+## Functional Design & Requirements
+- [x] Use state and develop a functionality to add a new tweet
+- [x] Make sure that the page is responsive
+- [x] Make sure that the UI looks exactly like how it looks on the screenshot (For both desktop and mobile)
+- [x] Use hooks and add a functionality to like a tweet and increment the counter
+- [x] Use fetch to get the network response and render the data from json
+- [x] Once the response is fetched from the network, use cache to render the UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Object-oriented Architectural Design
+![Nextleap-diagram drawio](https://github.com/kyzan/twitter-frontend/assets/43748389/29048b66-697e-4735-ab8d-f70a835f3600)
+
 
 ## Available Scripts
 
