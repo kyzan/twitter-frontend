@@ -1,0 +1,74 @@
+.invert-logo {
+    filter: invert(1);
+}
+
+.navbar {
+    height: 100%;
+    color: white;
+    list-style: none;
+}
+
+.navbar-element {
+    display: flex;
+    align-items: center;
+    height: 36px;
+}
+
+.navbar-element img {
+    margin-right: 5%;
+}
+
+.navbar-element h4 :hover {
+    color: #1DA1F2;
+}
+
+a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the parent element's color (usually black) */
+}
+
+.tweet-btn {
+    width: 250px;
+    background-color: #1da1f2;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card {
+    display: flex;
+    text-align: left;
+    position: fixed;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    margin-left: 10%;
+    padding: 10px;
+}
+
+.card :hover {
+ /* Gray translucent color on hover */
+    cursor: pointer;
+}
+
+.card-text {
+    margin: 10px;
+}
+
+.card img {
+    border-radius: 50%;
+}
+
+.user-name {
+    margin: 1px;
+}
+
+.user-id {
+    margin: 0px;
+    color: gray;
+}

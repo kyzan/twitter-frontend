@@ -1,0 +1,138 @@
+.home-text {
+    text-align: left;
+}
+
+.header-btns {
+    display: flex;
+}
+
+.for-you {
+    position: relative;
+    width: 50%;
+    border-bottom: 2px solid black; /* Set the initial bottom border */
+}
+  
+.for-you::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 35%; 
+    width: 30%; 
+    height: 2px; 
+    background-color: #1da1f2; 
+}
+
+.for-you-no-border {
+    width: 50%;
+}
+
+.following {
+    position: relative;
+    width: 50%;
+    border-bottom: 2px solid black; /* Set the initial bottom border */
+}
+
+.header div {
+    cursor: pointer;
+}
+  
+.following::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 35%; 
+    width: 30%; 
+    height: 2px; 
+    background-color: #1da1f2; 
+}
+
+.following-no-border {
+    width: 50%;
+}
+
+.post {
+    text-align: right;
+    margin-bottom: 1%;
+}
+
+.tweet-post {
+    display: flex;
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    margin: 5px;
+    border: none;
+    color: white;
+    background-color: black; /* Set the background color to match the body */
+    resize: none; /* Optional: Disable textarea resizing */
+    padding: 10px; /* Optional: Add padding for better aesthetics */
+    height: 50px; /* Set the desired height */
+}
+
+.post button {
+    width: 70px;
+    background-color: #1da1f2;
+    color: #ffffff;
+    padding: 5px;
+    border: none;
+    border-radius: 50px;
+    font-size: 12px !important;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.tweeter-info {
+    display: flex;
+}
+
+.tweeter-pic {
+    margin-right: 2%;
+}
+
+.tweet-body {
+    width: 100%;
+}
+
+.tweeter-id {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 0%;
+    height: 15%;
+}
+
+.id-child {
+    font-size: 12px;
+    margin-right: 1%;
+}
+
+.tweet-content {
+    text-align: left;
+    width: 100%;
+    margin: 0px;
+}
+
+.user-actions {
+    text-align: left;
+}
+
+.action-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.action {
+    margin-right: 1%;
+    color: gray;
+}
+
+.threaded-tweet {
+    box-shadow: 0 0 1px grey;
+    padding: 1% 2%;
+}
+
+.like-tweet :hover{
+    cursor: pointer;
+}
