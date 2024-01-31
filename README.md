@@ -9,6 +9,11 @@
 ## Object-oriented Architectural Design
 ![Nextleap-diagram drawio](https://github.com/kyzan/twitter-frontend/assets/43748389/29048b66-697e-4735-ab8d-f70a835f3600)
 
+## Steps to run
+1. _npm install_ : to install all the dependencies
+2. _npm start_ : to run the local server
+3. Following step 1 & 2 should open the app in your default browser. If not, paste "http://localhost:3000/" in your browser to view the app.
+
 
 ## Available Scripts
 
