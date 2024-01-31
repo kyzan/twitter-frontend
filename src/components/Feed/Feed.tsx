@@ -89,6 +89,11 @@ const TweetList: React.FC<TweetListProps> = ({tweetListData}) => {
     )
 }
 
+function isNotEmptyOrSpaces(inputString: string): boolean {
+    // Check if the string is null, undefined, empty, or contains only spaces
+    return inputString !== null && inputString !== undefined && inputString.trim() !== '';
+}
+
 const TweetPost: React.FC<TweetPostProps> = ({userData, tweetButton, prependTweet}) => {
     const [text, setText] = useState("");
 
@@ -117,7 +122,7 @@ const TweetPost: React.FC<TweetPostProps> = ({userData, tweetButton, prependTwee
             </textarea>
         </div>
         <button className="tweet-btn" onClick={e => {
-            prependTweet(createTweet(text));
+            if(isNotEmptyOrSpaces(text)) prependTweet(createTweet(text));
             setText("")
         }}>{tweetButton.buttonText}</button>
         </div>
